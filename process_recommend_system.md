@@ -6,7 +6,7 @@
 
 데이터를 추출 전 현재 ERD에서 plan과 연관된 엔터티를 모두 찾아줍니다. trip with 프로젝트에서 plan과 연관된 엔터티는 다음과 같습니다.
 
-![erd_plan](erd_plan.png)
+![erd_plan](imgs/erd_plan.png)
 
 `plan`, `plan_tag_mapping`, `plan_tag`, `plan_detail`, `location`, `location_type_mapping` 그리고 `location_type` 을 이용하여 해당 plan이 어느 태그를 지니고, 어느 여행지를 방문하는 지에 따라 벡터값을 구하기로 결정하였습니다.
 
@@ -69,7 +69,7 @@
 
 #### 1-4. View 생성
 
-![sample_plan_features](sample_plan_features.png)
+![sample_plan_features](imgs/sample_plan_features.png)
 
 > 해당 뷰는 샘플 데이터를 활용한 뷰입니다.
 
